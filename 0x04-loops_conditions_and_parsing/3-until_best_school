@@ -1,0 +1,9 @@
+#!/usr/bin/env
+#use until
+
+i=0
+until [$i -ge 10]
+do 
+	echo "Best Schools"
+	((i++))
+done
