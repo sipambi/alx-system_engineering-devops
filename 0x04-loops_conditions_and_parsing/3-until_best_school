@@ -1,4 +1,4 @@
-#!/usr/bin/env
+#!/usr/bin/env bash
 #use until to print 10 strings
 
 i=0
