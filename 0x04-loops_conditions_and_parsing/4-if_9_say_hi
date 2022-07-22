@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Display 10 Best Schools on the 9th iteration print Hie
+
+i=0
+
+while [ $i -lt 10 ]
+do 
+	if [ $i -eq 8 ]
+		echo "Hi"
+	else
+		echo "Best School"
+done
