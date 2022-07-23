@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# displays the PID of a bash
+# shellcheck
+
+ps -auxf | grep "bash"
