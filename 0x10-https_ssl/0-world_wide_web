@@ -1,3 +1,18 @@
 #!/usr/bin/env bash
 #Displays information about subdomains
+#1 - domain, 2 - subdomain
 
+if [ $2 = "www" ]; then
+	echo "The subdomain ${2} is a A record and points to 3.238.246.76"
+elif [ $2 = "lb-01" ]; then
+	echo "The subdomain ${2} is a A record and points to 3.238.246.76"
+elif [ $2 = "web-01" ]; then
+	echo "The subdomain ${2} is a A record and points to 3.235.56.105"
+elif [ $2 = "web-o2" ]; then
+	echo "The subdomain ${2} is a A record and points to 3.239.5.3"
+else
+	echo "The subdomain www is a A record and points to 3.238.246.76"
+	echo "The subdomain lb-01 is a A record and points to 3.238.246.76"
+	echo "The subdomain web-01 is a A record and points to 3.235.56.105"
+	echo "The subdomain web-02 is a A record and points to 3.239.5.3"
+fi
