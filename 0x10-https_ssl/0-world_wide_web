@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #Displays information about subdomains
-#1 - domain, 2 - subdomain
+#1 - domain, 2 - subdomain .
 
 if [[ $2 = "www" ]]; then
 	echo "The subdomain ${2} is a A record and points to 3.238.246.76"
